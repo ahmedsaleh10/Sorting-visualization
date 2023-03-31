@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+	<br />
+	<div class="container">
+		<p class="header">Sorting Visualizer</p>
+		<div class="window">
+			<div class="buttons">
+				<label for="size">Enter the size of array</label>
+				<input type="number" id="size"/>
+				<button id="randomArray" class="randomButton" onclick="generateArray()">Randomize</button>
+				<button id="BubbleSort" class="BubbleSort" onclick="BubbleSort()">BubbleSort</button>
+				<button id="SelectionSort" class="SelectionSort" onclick="SelectionSort()">SelectionSort</button>
+				<button id="InsertionSort" class="InsertionSort" onclick="InsertionSort()">InsertionSort</button>
+			</div>
+	
+	
+			<div id="array"></div>
+		</div>
+
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
